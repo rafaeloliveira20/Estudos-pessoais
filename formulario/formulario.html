@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inscreva-se</h1>
+    <main>
+        
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p>
+                <label for="inome">nome</label>
+                <input type="Nome" name="Nome" required>
+            </p>
+        
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="Email" id="iemail" required>
+            </p>
+
+            <p>
+                <label for="isenha">Senha</label>
+                <input type="password" name="Senha" id="isena" required minlength="8">
+            </p>
+
+            <p>
+                <label for="icep">Cep</label>
+                <input type="text" name="Cep" id="icep" maxlength="8" required>
+            </p>
+
+            <p>
+                <label for="inum">Número</label>
+                <input type="text" name="Número" id="inum" required>
+            </p>
+
+            <p>
+                <label for="irua">Rua</label>
+                <input type="text" name="Rua" id="irua" required>
+            </p>
+
+            <p>
+                <label for="icidade">Cidade</label>
+                <input type="text" name="Cidade" id="icidade" required>
+            </p>
+            <p>
+                <input type="checkbox" name="concordo" id="iconcordo" required><label for="iconcordo">concordo com os termoes e condições</label>
+            </p>
+            <p>
+                <input type="submit" value="Cadastrar conta">
+            </p>
+        </form>
+    </main>
+</body>
+</html>

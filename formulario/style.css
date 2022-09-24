@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --font-padrao:'Roboto', sans-serif;
+}
+body{
+    background-color: #F9F8F6;
+}
+h1{
+    margin: auto;
+    font-family: var(--font-padrao);
+    font-size: 36;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    max-width: 400px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
