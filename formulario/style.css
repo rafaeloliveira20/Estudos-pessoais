@@ -19,8 +19,24 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-main{
+section{
+    display: flex;
     max-width: 400px;
     margin: auto;
     background-color: #FFFFFF;
+}
+form{
+    font-family: var(--font-padrao);
+    font-size: 16px;
+    
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+form input{
+    height: 40px;
+    width: 321px;
+    
 }

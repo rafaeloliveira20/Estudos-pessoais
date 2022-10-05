@@ -8,51 +8,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Inscreva-se</h1>
-    <main>
+    <header>
+        <h1>Inscreva-se</h1>
+    </header>
+    
         
-        <form action="cadastro.php" method="post" autocomplete="off">
-            <p>
-                <label for="inome">nome</label>
-                <input type="Nome" name="Nome" required>
-            </p>
-        
-            <p>
-                <label for="iemail">Email</label>
-                <input type="email" name="Email" id="iemail" required>
-            </p>
-
-            <p>
-                <label for="isenha">Senha</label>
-                <input type="password" name="Senha" id="isena" required minlength="8">
-            </p>
-
-            <p>
-                <label for="icep">Cep</label>
-                <input type="text" name="Cep" id="icep" maxlength="8" required>
-            </p>
-
-            <p>
-                <label for="inum">Número</label>
-                <input type="text" name="Número" id="inum" required>
-            </p>
-
-            <p>
-                <label for="irua">Rua</label>
-                <input type="text" name="Rua" id="irua" required>
-            </p>
-
-            <p>
-                <label for="icidade">Cidade</label>
-                <input type="text" name="Cidade" id="icidade" required>
-            </p>
-            <p>
-                <input type="checkbox" name="concordo" id="iconcordo" required><label for="iconcordo">concordo com os termoes e condições</label>
-            </p>
-            <p>
-                <input type="submit" value="Cadastrar conta">
-            </p>
-        </form>
-    </main>
+        <section>
+            <form action="cadastro.php" method="post" autocomplete="off">
+                
+                    <div>
+                        <label for="inome">nome</label>
+                        <input type="Nome" name="Nome" required>
+                    </div>
+                
+            
+                
+                    <div>
+                        <label for="iemail">Email</label>
+                        <input type="email" name="Email" id="iemail" required>
+                    </div>
+                
+                
+                    <div>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="Senha" id="isena" required minlength="8">
+                    </div>
+                
+                
+                    <div>
+                        <label for="icep">Cep</label>
+                        <input type="text" name="Cep" id="icep" maxlength="8" required>
+                    </div>
+                
+                
+                    <div>
+                        <label for="inum">Número</label>
+                        <input type="text" name="Número" id="inum" required>
+                    </div>
+                
+                <div>
+                    
+                        <label for="irua">Rua</label>
+                        <input type="text" name="Rua" id="irua" required>
+                </div>
+                
+                
+                    <div>
+                        <label for="icidade">Cidade</label>
+                        <input type="text" name="Cidade" id="icidade" required>
+                    </div>
+                
+                
+                    <div>
+                        <input type="checkbox" name="concordo" id="iconcordo" required><label for="iconcordo">concordo com os termoes e condições</label>
+                    </div>
+                
+                
+                    <div><input type="submit" value="Cadastrar conta"></div>
+                
+            </form>
+        </section>
+    
 </body>
 </html>
