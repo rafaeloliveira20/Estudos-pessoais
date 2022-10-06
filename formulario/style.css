@@ -34,9 +34,25 @@ form div{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    
 }
+form div#cep{
+    
+}
+
 form input{
     height: 40px;
     width: 321px;
+    border: 1px solid #D2CEC5 ;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #F9F8F6;
+    
+}
+form input:focus{
+    outline-color: #FFBB12;
+    background-color: #FFFFFF;
+}
+form input#icep,input#inum{
+    width: 150px;
     
 }
